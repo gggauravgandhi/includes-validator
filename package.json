@@ -1,0 +1,36 @@
+{
+  "name": "includes-validator",
+  "version": "1.0.0",
+  "description": "Provides validator for general purpose testing to identify existence of some pattern/object in text",
+  "main": "includes-validator.js",
+  "scripts":{
+    "test": "eslint includes-validator.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gggauravgandhi/includes-validator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gggauravgandhi/includes-validator/issues"
+  },
+  "homepage": "https://github.com/gggauravgandhi/includes-validator.git",
+  "keywords": [
+    "includes",
+    "validator",
+    "validation",
+    "phone",
+    "email",
+    "regex",
+    "string"
+  ],
+  "author": "Gaurav Gandhi <imgg.gauravgandhi@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "libphonenumber-js": "^1.6.4"
+  },
+  "devDependencies": {
+    "eslint": "^5.7.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
