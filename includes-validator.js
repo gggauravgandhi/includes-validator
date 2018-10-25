@@ -7,9 +7,7 @@ includes.phoneRegxs = [/\(?([0-9]{3})\)?([ .-]?)([0-9]{3})\2([0-9]{4})/];
 includes.emailRegxs = [/[a-zA-Z0-9-_.]+@[a-zA-Z0-9-_.]+/];
 
 
-includes.number = (data, options) => {
-  const countries = options.countries || ['US', 'IN'];
-
+includes.number = (data, { countries } = { countries: ['US', 'IN'] }) => {
   // List of ISO country codes: https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
 
   let exists = false;
