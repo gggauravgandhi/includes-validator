@@ -1,6 +1,6 @@
 {
   "name": "includes-validator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Provides validator for general purpose testing to identify existence of some pattern/object in text",
   "main": "includes-validator.js",
   "scripts":{
